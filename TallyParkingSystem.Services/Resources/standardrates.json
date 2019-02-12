@@ -1,0 +1,35 @@
+﻿[
+  {
+    "name": "Standard Rate",
+    "type": "Hourly Rate",
+    "minimumhours": "0",
+    "maximumhours": "1",
+    "totalprice": 5,
+    "flatrate": false
+  },
+  {
+    "name": "Standard Rate",
+    "type": "Hourly Rate",
+    "minimumhours": "1",
+    "maximumhours": "2",
+    "totalprice": 10,
+    "flatrate": false
+  },
+  {
+    "name": "Standard Rate",
+    "type": "Hourly Rate",
+    "minimumhours": "2",
+    "maximumhours": "3",
+    "totalprice": 15,
+    "flatrate": false
+  },
+  {
+    "name": "Standard Rate",
+    "type": "Flat Rate",
+    "minimumhours": "3",
+    "maximumhours": "24",
+    "totalprice": 20,
+    "flatrate":  true 
+  }
+
+]

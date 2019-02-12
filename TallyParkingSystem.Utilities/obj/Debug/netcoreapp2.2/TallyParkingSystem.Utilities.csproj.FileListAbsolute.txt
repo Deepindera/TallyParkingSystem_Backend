@@ -1,0 +1,8 @@
+C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Utilities\bin\Debug\netcoreapp2.2\TallyParkingSystem.Utilities.deps.json
+C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Utilities\bin\Debug\netcoreapp2.2\TallyParkingSystem.Utilities.dll
+C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Utilities\bin\Debug\netcoreapp2.2\TallyParkingSystem.Utilities.pdb
+C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Utilities\obj\Debug\netcoreapp2.2\TallyParkingSystem.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Utilities\obj\Debug\netcoreapp2.2\TallyParkingSystem.Utilities.AssemblyInfoInputs.cache
+C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Utilities\obj\Debug\netcoreapp2.2\TallyParkingSystem.Utilities.AssemblyInfo.cs
+C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Utilities\obj\Debug\netcoreapp2.2\TallyParkingSystem.Utilities.dll
+C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Utilities\obj\Debug\netcoreapp2.2\TallyParkingSystem.Utilities.pdb

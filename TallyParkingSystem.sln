@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TallyParkingSystem", "TallyParkingSystem\TallyParkingSystem.csproj", "{F1261443-921B-4F81-BEDB-0DB259010A03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallyParkingSystem.Services", "TallyParkingSystem.Services\TallyParkingSystem.Services.csproj", "{9DC876BC-C935-4FB1-A6D0-50F909585F7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallyParkingSystem.Model", "TallyParkingSystem.Model\TallyParkingSystem.Model.csproj", "{F6C70F4F-67C3-4AD7-9C99-B498FA8808E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallyParkingSystem.Tests", "TallyParkingSystem.Tests\TallyParkingSystem.Tests.csproj", "{DA3F9906-6060-4310-A67A-CB6D403B1F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TallyParkingSystem.Utilities", "TallyParkingSystem.Utilities\TallyParkingSystem.Utilities.csproj", "{5939CF3A-1098-47F6-B88C-663D53D92316}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1261443-921B-4F81-BEDB-0DB259010A03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1261443-921B-4F81-BEDB-0DB259010A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1261443-921B-4F81-BEDB-0DB259010A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1261443-921B-4F81-BEDB-0DB259010A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DC876BC-C935-4FB1-A6D0-50F909585F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DC876BC-C935-4FB1-A6D0-50F909585F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DC876BC-C935-4FB1-A6D0-50F909585F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DC876BC-C935-4FB1-A6D0-50F909585F7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6C70F4F-67C3-4AD7-9C99-B498FA8808E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C70F4F-67C3-4AD7-9C99-B498FA8808E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C70F4F-67C3-4AD7-9C99-B498FA8808E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C70F4F-67C3-4AD7-9C99-B498FA8808E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA3F9906-6060-4310-A67A-CB6D403B1F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA3F9906-6060-4310-A67A-CB6D403B1F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA3F9906-6060-4310-A67A-CB6D403B1F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA3F9906-6060-4310-A67A-CB6D403B1F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5939CF3A-1098-47F6-B88C-663D53D92316}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5939CF3A-1098-47F6-B88C-663D53D92316}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5939CF3A-1098-47F6-B88C-663D53D92316}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5939CF3A-1098-47F6-B88C-663D53D92316}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58A0EB4B-830A-415D-B195-82350475081E}
+	EndGlobalSection
+EndGlobal

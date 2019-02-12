@@ -1,0 +1,33 @@
+﻿[
+  {
+    "name": "Early Bird",
+    "type": "Flat Rate",
+    "totalprice": 13.00,
+    "entryperiodstart": "6:00",
+    "entryperiodend": "9:00",
+    "exitperiodstart": "15:30",
+    "exitperiodend": "23:30",
+    "weekend": false
+  },
+  {
+    "name": "Night Rate",
+    "type": "Flat Rate",
+    "totalprice": 6.50,    
+    "entryperiodstart": "18:00",
+    "entryperiodend": "23:59",
+    "exitperiodstart": "00:00",
+    "exitperiodend": "05:59",
+    "weekend": false
+  },
+  {
+    "name": "Weekend Rate",
+    "type": "Flat Rate",
+    "totalprice": 10,
+    "entryperiodstart": "00:01",
+    "entryperiodend": "23:59",
+    "exitperiodstart": "00:00",
+    "exitperiodend": "23:59",
+    "weekend": true
+  }
+
+]
