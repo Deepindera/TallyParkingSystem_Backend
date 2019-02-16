@@ -9,7 +9,7 @@ namespace TallyParkingSystem.Tests
     [TestFixture]
     [ExcludeFromCodeCoverage]
     public class ParkingRateServiceTests
-    {        
+    {
         [TestCase("23/02/2019 00:01", "24/02/2019 23:59", 10, TestName = "Weekend Fee Test 1", Description = "Entry Saturday and Exit on Sunday")]
         [TestCase("24/02/2019 00:01", "24/02/2019 23:59", 10, TestName = "Weekend Fee Test 2", Description = "Entry Sunday and Exit on Sunday")]
         [TestCase("23/02/2019 00:01", "23/02/2019 23:59", 10, TestName = "Weekend Fee Test 3", Description = "Entry Saturday and Exit on Saturday")]
@@ -22,6 +22,7 @@ namespace TallyParkingSystem.Tests
         [TestCase("11/02/2019 09:00", "11/02/2019 21:00", 13, TestName = "Weekday 12 Hours Entry - Early Bird Fee Test", Description = "12 Hours entry on weekday")]
         [TestCase("11/02/2019 18:00", "12/02/2019 5:59", 6.50, TestName = "Weekday  Night  Fee Test", Description = "Night entry on weekday")]
         [TestCase("22/02/2019 23:59", "23/02/2019 5:00", 6.50, TestName = "Test to Apply Night Rate Instead of Weekend", Description = "Night entry on friday")]
+        [TestCase("20/02/2019 6:59", "24/02/2019 5:00", 80, TestName = "Multi Day test Apply Highest Rate With Multiplier", Description = "Multi Day test")]
         public void When_CalculateParkingFee_Called_ForEntryTime_Returns_CorrectRate(string entryTime, string exitTime, decimal expectedFee)
         {
             //arrange           
@@ -78,8 +79,8 @@ namespace TallyParkingSystem.Tests
         {
             return new EntryRequest()
             {
-                EntryTime = DateTime.Parse(entryTime),
-                ExitTime = DateTime.Parse(exitTime)
+                EntryTime = DateTime.Parse(entryTime).ToUniversalTime(),
+                ExitTime = DateTime.Parse(exitTime).ToUniversalTime()
             };
         }
     }

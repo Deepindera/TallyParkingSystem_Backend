@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using TallyParkingSystem.Model;
+using Microsoft.AspNetCore.Cors;
 
 namespace TallyParkingSystem
 {
@@ -20,6 +21,15 @@ namespace TallyParkingSystem
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc(options => options.Filters.Add(typeof(ValidatorActionFilter))).SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAllOrigin",
+                    builder => builder
+                        .AllowAnyOrigin()
+                        .AllowAnyMethod()
+                        .AllowAnyHeader());
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -34,6 +44,8 @@ namespace TallyParkingSystem
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
             }
+
+            app.UseCors("AllowAllOrigin");
 
             app.UseHttpsRedirection();
             app.UseMvc();

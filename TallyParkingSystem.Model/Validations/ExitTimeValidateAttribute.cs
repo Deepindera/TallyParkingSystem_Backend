@@ -31,7 +31,7 @@ namespace TallyParkingSystem.Model
 
             try
             {
-                convertedDate = Convert.ToDateTime(value);
+                convertedDate = Convert.ToDateTime(value).ToLocalTime();
 
             }
             catch (FormatException e)

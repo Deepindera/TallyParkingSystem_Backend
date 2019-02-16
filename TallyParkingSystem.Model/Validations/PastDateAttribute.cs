@@ -8,7 +8,7 @@ namespace TallyParkingSystem.Model
         public override bool IsValid(object value)
         {
             var datetime = Convert.ToDateTime(value);
-            return datetime < DateTime.Now; 
+            return datetime.ToLocalTime() < DateTime.Now; 
         }
     }
 }

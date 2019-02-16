@@ -2,7 +2,13 @@ C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\bin\Deb
 C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\bin\Debug\netcoreapp2.2\TallyParkingSystem.Services.dll
 C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\bin\Debug\netcoreapp2.2\TallyParkingSystem.Services.pdb
 C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\bin\Debug\netcoreapp2.2\TallyParkingSystem.Model.dll
+C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\bin\Debug\netcoreapp2.2\TallyParkingSystem.Utilities.dll
+C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Core.dll
 C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\bin\Debug\netcoreapp2.2\TallyParkingSystem.Model.pdb
+C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\bin\Debug\netcoreapp2.2\TallyParkingSystem.Utilities.pdb
+C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Core.xml
 C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\obj\Debug\netcoreapp2.2\TallyParkingSystem.Services.csprojAssemblyReference.cache
 C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\obj\Debug\netcoreapp2.2\TallyParkingSystem.Services.Properties.Resources.resources
 C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\obj\Debug\netcoreapp2.2\TallyParkingSystem.Services.csproj.GenerateResource.cache
@@ -12,9 +18,3 @@ C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\obj\Deb
 C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\obj\Debug\netcoreapp2.2\TallyParkingSystem.Services.csproj.CopyComplete
 C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\obj\Debug\netcoreapp2.2\TallyParkingSystem.Services.dll
 C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\obj\Debug\netcoreapp2.2\TallyParkingSystem.Services.pdb
-C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\bin\Debug\netcoreapp2.2\TallyParkingSystem.Utilities.dll
-C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\bin\Debug\netcoreapp2.2\TallyParkingSystem.Utilities.pdb
-C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.dll
-C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Core.dll
-C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Abstractions.xml
-C:\Users\Dee\source\repos\TallyParkingSystem\TallyParkingSystem.Services\bin\Debug\netcoreapp2.2\Microsoft.AspNetCore.Mvc.Core.xml
